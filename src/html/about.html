@@ -1,0 +1,116 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block header %}
+<header class="hero hero--home">
+  <div class="container">
+    <h4>Machine intelligence creates smarter programs </h4>
+    <h1>Team Intelligence creates smarter organizations </h1>
+  </div>
+</header>
+{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center mb-5">
+
+      <div class="col-md-6">
+        <h3 class="mb-3">Why TEAM INTELLIGENCE?</h3>
+        <p>
+          We envision a future where the most profound and use of Aritificial Intelligence is not augmenting individiuals, or automating tasks or even making better machines. We belive that  making collective organizations more intelligent by augmenting communication between individuals, and helping groups to act more collectively intelligent is the best possible use of Artifical Intelligence.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="">
+          <img src="/images/about-radial-graph.png" alt="" class="app-preview">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section section--gradient">
+  <div class="container-fluid">
+    <div class="row align-items-center mb-5">
+      <div class="col-md-8 col-lg-7">
+        <div class="image-overflow-left">
+          <img src="/images/app-preview@2x.png" alt="" class="app-preview">
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-4">
+        <h3 class="mb-3">Skill Modeling FOR INDIVIDUALS AND TEAMS</h3>
+        <p>
+          OK Play predicts team growth and correlates skills to overall team success.Identify skill gaps in your team,  as well as hire and assess without bias.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Customers</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img class="card-img-top" src="images/card_post_team_01.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Customer Service Team</h4>
+            <p><small>By <a href="#">Name</a> in <a href="#">Category</a></small></p>
+            <p class="card-text"><small>Some quick example text to build on the card title and make up the bulk of the card's content.</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img class="card-img-top" src="images/card_post_team_02.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Customer Service Team</h4>
+            <p><small>By <a href="#">Name</a> in <a href="#">Category</a></small></p>
+            <p class="card-text"><small>Some quick example text to build on the card title and make up the bulk of the card's content.</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img class="card-img-top" src="images/card_post_team_03.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Customer Service Team</h4>
+            <p><small>By <a href="#">Name</a> in <a href="#">Category</a></small></p>
+            <p class="card-text"><small>Some quick example text to build on the card title and make up the bulk of the card's content.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="text-center mt-5 mb-5">
+      <a href="#" class="btn btn-secondary">See all case studies --></a>
+    </section>
+  </div>
+</section>
+
+<section class="section section--photo" style="background-image: url(images/meeting_stock_01.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="card card--luxurious">
+          <div class="card-body">
+            <h2 class="mb-4">Make your team predictive</h2>
+            <p class="card-text mb-4">Run predictive simulations completely customized to your team and goals.</p>
+            <a href="#" class="btn btn-secondary">Request a demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
