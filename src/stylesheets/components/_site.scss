@@ -72,3 +72,12 @@
 .circle {
   border-radius: 50%;
 }
+
+.image-overflow-left {
+  position: relative;
+  img {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}
