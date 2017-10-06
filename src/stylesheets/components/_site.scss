@@ -52,6 +52,11 @@
       color: #fff;
     }
   }
+
+  &--photo {
+    background-position: center center;
+    background-size: cover;
+  }
 }
 
 .footer {

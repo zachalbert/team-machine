@@ -4,3 +4,9 @@
   letter-spacing: normal;
   text-transform: none;
 }
+
+.card--luxurious {
+  .card-body {
+    padding: 2rem;
+  }
+}
