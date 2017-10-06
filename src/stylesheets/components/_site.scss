@@ -62,10 +62,36 @@
 .footer {
   background-color: #222222;
   color: #ECECEC;
-
+  overflow-x: hidden;
+  &--segment-left {
+    padding: $lead-triple 0;
+  }
   &--segment-right {
     background-color: #000;
     color: #888888;
+    position: relative;
+    padding: $lead-triple 0 $lead-triple $lead-double;
+    * {
+      position: relative;
+      z-index: 3;
+    }
+    &:after {
+      content: '';
+      background: black;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left:0;
+      right:-1000%;
+      z-index: 2;
+    }
+  }
+}
+
+.icon {
+  &--footer {
+    height: $lead-single;
+    width: $lead-single;
   }
 }
 
