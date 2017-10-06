@@ -1,0 +1,87 @@
+{% from 'macros/helpers.html' import sprite %}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ title }}{% endblock %}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,600i,700" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include "shared/app-icons.html" %}
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    {% block nav %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+      <div class="container">
+        <a class="navbar-brand logo__wrapper" href="/"><img src="/images/team-machine-logo.svg" class="logo" alt="Team Machine"><span class="sr-only">Team Machine</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Case Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-link--CTA">Request a Demo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    {% endblock %}
+
+    {% block header %}
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-3">Normal, non-homepage jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div>
+    {% endblock %}
+
+    {% block content %}{% endblock %}
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-8 footer--segment-left">
+            <div class="row justify-content-between">
+              <div class="col">
+                <a class="logo__wrapper" href="/"><img src="/images/team-machine-logo.svg" class="logo" alt="Team Machine"><span class="sr-only">Team Machine</span></a>
+              </div>
+              <div class="col">
+                <address>
+                  <strong>San Francisco</strong><br>
+                  814 Mission Street, 6<sup><u>th</u></sup> Floor<br>
+                  San Francisco, CA, 94103
+                </address>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 footer--segment-right">
+            <p>
+              <a href="#">twitter</a>
+              <a href="#">linkedin</a>
+            </p>
+            <p>
+              &copy; Copyright 2017 Illuminated Futures, Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    {% block javascript %}
+      <script src="javascripts/app.js"></script>
+    {% endblock %}
+  </body>
+</html>

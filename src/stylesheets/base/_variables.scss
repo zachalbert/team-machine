@@ -1,0 +1,25 @@
+$type-stack-headings: 'Poppins', sans-serif;
+$type-stack-body    : 'Poppins', sans-serif;
+
+$base-font-size     : 20px;
+$base-ratio         : 1.5;
+$base-line-height   : $base-font-size * $base-ratio;
+
+$lead-half          : $base-line-height / 2;
+$lead-single        : $base-line-height;
+$lead-double        : $base-line-height * 2;
+$lead-triple        : $base-line-height * 3;
+$lead-quadruple     : $base-line-height * 4;
+$lead-quintuple     : $base-line-height * 5;
+$lead-sextuple      : $base-line-height * 6;
+
+$color-lighter      : #C8BFE6;
+$color-primary      : #6E34ED;
+$color-dark         : #44305E;
+$color-darker       : #330E33;
+
+$color-text         : $color-dark;
+$color-text-light   : $color-lighter;
+$color-link         : $color-primary;
+$color-link-hover   : $color-darker;
+$color-shadow       : $color-darker;

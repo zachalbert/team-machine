@@ -1,0 +1,12 @@
+{
+  "name": "team-machine",
+  "title": "Team Machine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zachalbert/team-machine.git",
+  "author": "zachalbert <zachalbert@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blendid": "^4.3.0"
+  }
+}

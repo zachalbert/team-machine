@@ -1,0 +1,15 @@
+.btn {
+  &-primary {
+    @extend .h4;
+    color: $color-primary;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba($color-darker, .2);
+    border: 0;
+    padding: $lead-single $lead-triple;
+
+    &:hover {
+      background-color: $color-primary;
+      color: #fff;
+    }
+  }
+}

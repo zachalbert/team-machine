@@ -1,0 +1,56 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block header %}
+<header class="hero hero--home">
+  <div class="container">
+    <h4>Introducing Team Intelligence</h4>
+    <h1>Predictably Better Teams</h1>
+  </div>
+</header>
+{% endblock %}
+
+{% block content %}
+  <!-- <h1 data-module="example">{{ message }}</h1> -->
+
+<section class="section">
+  <h2 class="text-center">Team Machine helps teams measure KPI’s and predict success</h2>
+</section>
+
+<section class="section section--gradient">
+  <h3>PREDICT TEAM SUCCESS AND SIMULATE OPTIMAL OUTCOMES</h3>
+  <p>
+    OK Play structures the behavioral data in your organization and uses proprietary Artificial Intelligence to determine the best action plan for your team. Combined with data connectors and delightful UX for the entire team, our platform enables a real-time, data-driven, change management system.
+  </p>
+
+  <a href="#" class="btn btn-primary">Learn More</a>
+</section>
+
+<section class="section">
+  <h2>THE VALUE OF TEAM INTELLIGENCE</h2>
+</section>
+
+<section class="section">
+  <h2>Case Studies</h2>
+  Card, Card, Card.
+
+  <button>See all case studies --></button>
+</section>
+
+<section class="section section--photo">
+  <div class="card">
+    <h1>Make your team predictive.</h1>
+    <p>
+      Run predictive simulations completely customized to your team and goals.
+    </p>
+
+    <button>Request a demo</button>
+  </div>
+</section>
+
+{% endblock %}

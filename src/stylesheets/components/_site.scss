@@ -1,0 +1,65 @@
+.logo {
+  min-width: $lead-quadruple;
+  max-width: $lead-sextuple;
+  margin: 0;
+
+  img {
+    display: block;
+  }
+
+  &__wrapper {
+    padding: 0;
+  }
+}
+
+.navbar-nav {
+  a.nav-link {
+    line-height: $lead-double;
+    padding: 0;
+  }
+}
+
+.hero {
+  padding: $lead-sextuple $lead-single;
+  background-size: cover;
+
+  &--home {
+    background-image: url('/images/sailing_team_dark_01.png');
+  }
+
+  h1, .h1 {
+    color: #fff;
+  }
+
+  h4, .h4 {
+    color: $color-text-light;
+  }
+}
+
+.section {
+  padding: $lead-quadruple $lead-single;
+
+  &--gradient {
+    color: #fff;
+    background: #6f77ff;
+    background: -webkit-linear-gradient(to right, #ff8ee9, #6f77ff);
+    background: linear-gradient(to right, #ff8ee9, #6f77ff);
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #fff;
+    }
+  }
+}
+
+.footer {
+  background-color: #222222;
+  color: #ECECEC;
+
+  &--segment-right {
+    background-color: #000;
+    color: #888888;
+  }
+}
