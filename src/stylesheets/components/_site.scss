@@ -20,7 +20,7 @@
 }
 
 .hero {
-  padding: $lead-sextuple $lead-single;
+  padding: $lead-sextuple 0;
   background-size: cover;
 
   &--home {
@@ -37,7 +37,7 @@
 }
 
 .section {
-  padding: $lead-quadruple $lead-single;
+  padding: $lead-quadruple 0;
 
   &--gradient {
     color: #fff;
