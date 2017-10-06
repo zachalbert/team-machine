@@ -1,4 +1,5 @@
 .btn {
+  text-transform: uppercase;
   &-primary {
     @extend .h4;
     color: $color-primary;
