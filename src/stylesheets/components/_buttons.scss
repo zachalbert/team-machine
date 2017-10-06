@@ -5,10 +5,23 @@
     background-color: #fff;
     box-shadow: 0 0 12px rgba($color-darker, .2);
     border: 0;
-    padding: $lead-single $lead-triple;
+    padding: $lead-half $lead-double;
 
     &:hover {
       background-color: $color-primary;
+      color: #fff;
+    }
+  }
+  &-secondary {
+    @extend .h4;
+    color: #fff;
+    background-color: $color-primary;
+    box-shadow: 0 0 12px rgba(#fff, .2);
+    border: 0;
+    padding: $lead-half $lead-double;
+
+    &:hover {
+      background-color: $color-darker;
       color: #fff;
     }
   }
